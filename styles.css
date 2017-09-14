@@ -1,0 +1,375 @@
+@font-face {
+	font-family: 'Ford-Antenna Bold';
+	src: url('fonts/ford-antenna-bold.otf');
+}
+@font-face {
+	font-family: 'Ford-Antenna Light';
+	src: url('fonts/ford-antenna-light.otf');
+}
+html, body {
+	font-family: 'Ford-Antenna Light', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+h2 {
+	font-family: 'Ford-Antenna Bold';
+	font-size: 50px;
+	color: #00417B;
+	letter-spacing: 0;
+	line-height: 55px;
+	margin-bottom: 75px;
+}
+#top {
+	position: relative;
+	font-size: 30px;
+	color: #FFFFFF;
+	line-height: 35px;
+}
+#top img {
+	vertical-align: top;
+	width: 100%;
+}
+#main-head {
+	position: absolute;
+	top: 0;
+	margin-top: 15px;
+	padding-left: 12%;
+}
+#title {
+	width: 100%;
+	top: 0;
+	margin-left: 30px;
+	margin-bottom: -20px;
+	font-family: 'Ford-Antenna Bold', sans-serif;
+	color: #FFFFFF;
+}
+#title h1 {
+	font-size: 72px;
+	line-height: 90px;
+}
+#heading {
+	width: 100%;
+	top: 0;
+	margin-left: 40px;
+}
+#arrow {
+	width: 3%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: 15px;
+}
+#arrow img {
+	vertical-align: bottom;
+}
+#main-content {
+	margin-top: 5%;
+}
+#left, #right {
+	padding-left: 5%;
+}
+#right {
+	margin-top: 10%;
+}
+form {
+	padding-right: 15%;
+}
+.input-blue{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid #00417b;
+	color: #00417b;
+	opacity: 0.3;
+	padding-top: 25px;
+	padding-bottom: 7px;
+	display: block;
+	width: 100%;
+}
+.opaque {
+	opacity: 1;
+	font-family: 'Ford-Antenna Bold';
+}
+#registruotis {
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background: #00417b;
+	font-family: 'Ford-Antenna Bold';
+	border: none;
+	padding: 15px;
+}
+.glyphicon-chevron-right {
+	float: right;
+}
+#right-box {
+	font-size: 14px;
+	color: #00417b;
+	padding-right: 15%;
+}
+.grey {
+	background: #e5ecf1;
+}
+.grey, .white {
+	padding: 10px;
+}
+#apzvalga {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	border: 2px solid #00417B;
+	font-family: 'Ford-Antenna Bold';
+	font-size: 16px;
+	color: #00417B;
+	padding: 15px 0;
+}
+#pdf-icon {
+	float: right;
+	margin-right: 15px;
+}
+#images {
+	max-width: 100%;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	display: flex;
+}
+.column {
+	display: inline-block;
+	padding-right: 5px;
+}
+.column img {
+	margin-bottom: 5px;
+}
+.one, .two, .three, .four {
+	padding: 4px;
+}
+.two img{
+	display: block;
+	float: right;
+	margin-bottom: 5px;
+}
+.three img {
+	margin-top: 78%;
+}
+.four img {
+	margin-top: 50%;
+}
+#disclaimer {
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 12px;
+	color: #00417B;
+	opacity: 0.4;
+}
+#daugiau {
+	padding-bottom: 70px;
+}
+.offer {
+	text-align: center;
+	margin-bottom: 15px;
+	padding: 4px;
+}
+.offer img {
+	max-width: 100%;
+}
+.text-box {
+	text-align: left;
+	color: #00417B;
+	margin-top: -10px;
+	width: 60%;
+	margin-left: 15px;
+}
+.text-box-head {
+	font-family: 'Ford-Antenna Bold';
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.offer-text {
+	font-size: 14px;
+}
+footer {
+	background: black;
+	padding-top: 20px;
+}
+.miestai {
+	text-align: center;
+	margin-bottom: 70px;
+}
+.miestai-head {
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.info, .miestai a {
+	opacity: 0.2;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 22px;
+}
+hr {
+	opacity: 0.2;
+}
+#copyright {
+	padding-bottom: 12px;
+}
+#footer-right {
+	text-align: right;
+}
+
+/* Mažesniems ekranams */
+
+@media screen and (max-width: 1000px) {
+	#main-head {
+		padding-left: 5%;
+	}
+	#title {
+		margin-bottom: 0;
+	}
+	#title h1 {
+		font-size: 60px;
+		line-height: 70px;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	#heading {
+		font-size: 25px;
+		margin-left: 7%;
+	}
+	h2 {
+		font-size: 40px;
+		margin-bottom: 45px;
+	}
+	.text-box {
+		margin: 0 auto;
+		text-align: center;
+		margin-top: -8px;
+	}
+	.offer-text {
+		font-size: 12px;
+	}
+	.right {
+		margin-right: 0;
+	}
+	form {
+		padding-right: 0;
+	}
+	#left, #right {
+		width: 100%;
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+	#right-box {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.miestai {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	html, body {
+		font-size: 12px;
+	}
+	#title {
+		margin-left: 20px;
+	}
+	#title h1 {
+		font-size: 37px;
+		line-height: 45px;
+	}
+	#main-head {
+		padding-left: 0;
+	}
+	#heading {
+		font-size: 16px;
+		line-height: 1.2em;
+		margin-left: 15px;
+	}
+	h2 {
+		font-size: 25px;
+		line-height: 1.2em;
+	}
+	#disclaimer {
+		margin-top: -20px;
+	}
+	#footer-left, #footer-right {
+		text-align: center;
+	}
+	#right-box, .info, .miestai a {
+		font-size: 12px;
+	}
+	#registruotis, #apzvalga {
+		font-size: 14px;
+	}
+	footer {
+		margin-top: -25px;
+	}
+	.miestai {
+		margin-bottom: 40px;
+	}
+
+}
+
+@media screen and (max-width: 415px) {
+	html, body {
+		font-size: 10px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	#main-head {
+		padding-left: 0;
+		width: 95%;
+	}
+	#main-head h1 {
+		font-size: 30px;
+	}
+	#title, #heading {
+		text-align: center;
+	}
+	#title {
+		margin-left: 0;
+	}
+	#title h1 {
+		font-size: 30px;
+		line-height: 37px;
+	}
+	#heading {
+		margin-left: 0;
+		font-size: 13px;
+	}
+	form {
+		margin-top: -25px;
+	}
+	input {
+		padding: 0;
+		line-height: 10px;
+	}
+	#registruotis, #apzvalga {
+		margin-top: 34px;
+	}
+	#right-box, .info, .miestai a {
+		font-size: 10px;
+	}
+	#disclaimer {
+		margin-top: -33px;
+	}
+	footer {
+		margin-top: -50px;
+	}
+	.miestai {
+		margin-bottom: 0px;
+	}
+}
